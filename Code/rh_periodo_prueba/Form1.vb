@@ -44,7 +44,7 @@ Public Class Form1
         'Else
         '    fechaC = dia & "/" & 3 - (12 - mes) & "/" & anio + 1
         'End If
-        ndays = CInt(ComboBox2.GetItemText(ComboBox2.SelectedItem))
+        ndays = CInt(ComboBox2.GetItemText(ComboBox2.SelectedItem)) - 1
 
         fechaC = fecha.AddDays(ndays)
         'fechaC = fecha.AddMonths(+3)
