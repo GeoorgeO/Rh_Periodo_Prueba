@@ -50,7 +50,7 @@ Public Class Form1
         'fechaC = fecha.AddMonths(+3)
 
         Try
-            Using cnx = New SqlConnection("Data Source=192.168.3.254;Initial Catalog=Vistas;User ID=sa;Password=inventumc762$")
+            Using cnx = New SqlConnection("Data Source=192.168.3.254;Initial Catalog=Vistas;User ID=sa;Password=$3rv3r5q10621%")
                 cnx.Open()
                 Using cmd As New SqlCommand()
                     cmd.Connection = cnx
@@ -120,7 +120,7 @@ Public Class Form1
         Dim numdays As Int32 = 0
         Dim lector As SqlDataReader
         Try
-            Using cnx = New SqlConnection("Data Source=192.168.3.254;Initial Catalog=Vistas;User ID=sa;Password=inventumc762$")
+            Using cnx = New SqlConnection("Data Source=192.168.3.254;Initial Catalog=Vistas;User ID=sa;Password=$3rv3r5q10621%")
                 cnx.Open()
                 Using cmd As New SqlCommand()
                     cmd.Connection = cnx
@@ -169,7 +169,7 @@ Public Class Form1
 
     Function eliminarTabla(ByVal nombre As String)
         Try
-            Using cnx = New SqlConnection("Data Source=192.168.3.254;Initial Catalog=Vistas;User ID=sa;Password=inventumc762$")
+            Using cnx = New SqlConnection("Data Source=192.168.3.254;Initial Catalog=Vistas;User ID=sa;Password=$3rv3r5q10621%")
                 cnx.Open()
                 Using cmd As New SqlCommand()
                     cmd.Connection = cnx
@@ -215,7 +215,7 @@ Public Class Form1
         Dim numdays As Int32 = 0
         Dim lector As SqlDataReader
         Try
-            Using cnx = New SqlConnection("Data Source=192.168.3.254;Initial Catalog=Vistas;User ID=sa;Password=inventumc762$")
+            Using cnx = New SqlConnection("Data Source=192.168.3.254;Initial Catalog=Vistas;User ID=sa;Password=$3rv3r5q10621%")
                 cnx.Open()
                 Using cmd As New SqlCommand()
                     cmd.Connection = cnx
@@ -269,7 +269,7 @@ Public Class Form1
         Dim numdays As Int32 = 0
         Dim lector As SqlDataReader
         Try
-            Using cnx = New SqlConnection("Data Source=192.168.3.254;Initial Catalog=Vistas;User ID=sa;Password=inventumc762$")
+            Using cnx = New SqlConnection("Data Source=192.168.3.254;Initial Catalog=Vistas;User ID=sa;Password=$3rv3r5q10621%")
                 cnx.Open()
                 Using cmd As New SqlCommand()
                     cmd.Connection = cnx
